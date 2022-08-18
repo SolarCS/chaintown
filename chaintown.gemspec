@@ -6,12 +6,12 @@ require "chaintown/version"
 Gem::Specification.new do |spec|
   spec.name          = "chaintown"
   spec.version       = Chaintown::VERSION
-  spec.authors       = ["Marcin Ziolkowski"]
-  spec.email         = ["ziolmar@gmail.com"]
+  spec.authors       = ["Marcin Ziolkowski", "Greg Bowman"]
+  spec.email         = ["ziolmar@gmail.com", "gbowman@cipherhealth.com"]
 
   spec.summary       = 'Simple implementation of the pipeline or chain of command design pattern.'
   spec.description   = 'Simple implementation of the pipeline or chain of command design pattern.'
-  spec.homepage      = 'https://github.com/ziolmar/chaintown'
+  spec.homepage      = 'https://github.com/solarcs/chaintown'
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.
@@ -24,9 +24,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.16"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rake", "~> 12.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "pry", "~> 0.1"
 
-  spec.add_dependency "activesupport", "~> 5"
+  spec.add_dependency "activesupport", "~> 6.0"
 end
